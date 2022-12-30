@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "lint-staged": {
+    "*js" : ["standart"]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/josemauromani/clean-node-api.git"
@@ -15,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/josemauromani/clean-node-api/issues"
   },
-  "homepage": "https://github.com/josemauromani/clean-node-api#readme"
+  "homepage": "https://github.com/josemauromani/clean-node-api#readme",
+  "devDependencies": {
+    "lint-staged": "^13.1.0",
+    "standart": "^6.1.0"
+  }
 }
